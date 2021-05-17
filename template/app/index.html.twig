@@ -1,71 +1,9 @@
 {% extends "base.html.twig" %}
 
-{% block title %}Thibault Marquand{% endblock %}
+{% block title %}{% endblock %}
 
-{% block stylesheets %} 
-    <link rel="stylesheet" type="text/css" href="/css/console.css">
-{% endblock %}
+{% block stylesheets %}{% endblock %}
 
-{% block content %}
-    <div id="console"></div>
-{% endblock %}
+{% block content %}{% endblock %}
 
-{% block javascripts %}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101987237-3"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-101987237-3');
-    </script>
-    <script type="text/javascript" src="/js/console.js"></script>
-    <script>
-        Typer.speed = 8;
-        Typer.text = "";
-        Typer.init();
-        var machine_number = "moderator@marquand.pro";
-        var histories = new Array();
-        var history_index = -1;
-
-        Typer.write("______..___..._..._.._...__<br/>",false);
-        Typer.write("|.___.\\/._.\\.|.\\.|.||.|././<br/>",false);
-        Typer.write("|.|_/././_\\.\\|..\\|.||.|/./.<br/>",false);
-        Typer.write("|.___.\\.._..||...`.||....\\.<br/>",false);
-        Typer.write("|.|_/./.|.|.||.|\\..||.|\\..\\<br/>",false);
-        Typer.write("\\____/\\_|.|_/\\_|.\\_/\\_|.\\_/(.)Marquand(.)Pro<br/>",false);
-
-       Typer.write("Bonjour, c'est le <span class='text-primary'>moderator</span> qui vous parles, vous êtes sur un site basé sur un modèle simple tel que les terminaux utilisé dans la programmation. \
-            Son but est d'avoir une gestion simple de votre <strong class='text-warning'>portefeuille Bitcoin</strong> via un espace web. <br/> \
-            Pour profiter de tout nos services vous devrez vous inscrire avec la commande <strong class='text-success'>inscription</strong> ou vous connectez avec la commande <strong class='text-success'>connexion</strong>. <br/> \
-            Lancer la commande <strong class='text-info'>aide</strong> afin de connaitre toutes les commandes disponible. <br/>");
-        var machine_number = "{{ user ?? 'guest@marquand.pro' }}";
-        Typer.write('');
-
-        document.addEventListener('keydown', function (event) {
-            var string = String.fromCharCode(event.keyCode);
-            console.log(event);
-            if (event.keyCode === 8) {
-                Typer.delete();
-            } else if (event.keyCode === 13) {
-                Typer.submit();
-            } else if (event.keyCode === 37) {
-                // Arrow left
-            } else if (event.keyCode === 39) {
-                // Arrow right
-            } else if (event.keyCode === 38) {
-                // Arrow up
-                history(history_index--);                
-            } else if (event.keyCode === 40) {
-                history(history_index++);
-                // Arrow down
-            } else if (event.keyCode === 225) {
-                // Alt right
-            } else if (event.keyCode === 67 && event.ctrlKey === true) {
-                Typer.cancel();
-            } else if (event.location === 0) {
-                Typer.input(event.key);
-            }
-        });
-    </script>
-{% endblock %}
+{% block javascripts %}{% endblock %}

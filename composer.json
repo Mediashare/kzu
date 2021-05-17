@@ -19,7 +19,6 @@
     },
     "require": {
         "kzu/web": "*",
-        "mailjet/mailjet-apiv3-php": "^1.5",
-        "coinbase/coinbase": "^2.8"
+        "mailjet/mailjet-apiv3-php": "^1.5"
     }
 }
