@@ -1,0 +1,65 @@
+/* CodeMirro */
+.CodeMirror { height: calc(100vh - 55px); }
+/* Editor Footer */
+#editor_footer {
+    width: 100%;
+    height: 55px;
+    margin: 0;
+    background-color: bisque;
+}
+#editor_footer input,
+#editor_footer button {
+    height: 55px;
+    width: 100%;
+    margin: auto;
+    font-size: 2rem;
+}
+/* Admin Menu */
+#admin #menu {
+    margin: 0.2rem 1rem;
+    padding: 0;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    background-color: #91826f;
+    border-radius: 0.2rem;
+    z-index: 3;
+}
+#admin #menu .list-group { width: 15rem;}
+#admin #menu .menu-title {
+    cursor: default!important;
+    text-align: left!important;
+}
+#admin #menu #menu-configs .menu-item,
+#admin #menu #menu-databases .menu-item {
+    color: black;
+    margin: 0;
+    line-height: 1rem;
+    border-radius: 0.1rem;
+    text-align: right;
+}
+
+#admin #menu #menu-configs .menu-item.active,
+#admin #menu #menu-databases .menu-item.active {
+    background-color: #bfbffb;
+} 
+#admin #menu .menu-item {
+    cursor: pointer;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    color: #fff;
+    border-radius: 0.2rem;
+    text-decoration: none;
+}
+#admin #menu #menu-close,
+#admin #menu #menu-open {
+    cursor: pointer;
+    margin: 0.2rem;
+    padding: 0.4rem 0.2rem;
+    text-align: right;
+    color: #fff;
+    border-radius: 0.2rem;
+}

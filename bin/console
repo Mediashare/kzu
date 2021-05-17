@@ -1,0 +1,17 @@
+#!/env/php
+<?php
+require '../vendor/autoload.php';
+
+use Mediashare\Modules\Arguments;
+use Mediashare\Modules\Output;
+use Kzu\Command;
+
+Class Console {
+    use Command;
+    public function run() {
+        Command::$arguments = new Arguments();
+        Command::$output = new Output();
+        Command::run();
+    }
+
+}

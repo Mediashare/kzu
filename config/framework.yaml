@@ -1,0 +1,38 @@
+env: dev
+storage:
+    database:
+        directory: /var/databases
+    session:
+        lifetime: +7days
+twig:
+    debug: true
+    cache: false # /var/cache
+    template.directory: /template
+routes:
+    index:
+        path: /
+        controller: 'App\Controller\Main::index'
+
+    register:
+        path: /register
+        controller: 'Kzu\Controller\Authentification::register'
+    login:
+        path: /login
+        controller: 'Kzu\Controller\Authentification::login'
+    logout:
+        path: /logout
+        controller: 'Kzu\Controller\Authentification::logout'
+    admin:
+        path: /admin
+        controller: 'Kzu\Controller\Admin::index'
+    admin_config:
+        path: '/admin/config/{config}'
+        controller: 'Kzu\Controller\Admin::config'
+    admin_database:
+        path: '/admin/database/{database}'
+        controller: 'Kzu\Controller\Admin::database'
+
+    error_404:
+        path: /error/404
+        controller: 'Kzu\Controller\Error::error_404'
+

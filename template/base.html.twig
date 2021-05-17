@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        {# SEO #}
+        <meta charset="UTF-8">
+        <title>{% block title %}Model{% endblock %}</title>
+        <link rel="icon" href="favicon.png">
+        
+        {# Stylesheets #}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="/fontawesome/css/all.css" rel="stylesheet">
+        <link href="/flash/flash.css" rel="stylesheet">
+        <link href="/css/app.css" rel="stylesheet">
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+        {# Content #}
+        {% block content %}{% endblock %}
+
+        {# Javascripts #}
+        <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/flash/flash.js"></script>
+        <script src="/js/app.js"></script>
+        <script src="/js/authentification.js"></script>
+        {% block javascripts %}{% endblock %}
+        
+        {% include '_flash.html.twig' %}
+    </body>
+</html>

@@ -1,0 +1,7 @@
+<script>
+    {% for type, flash in flash() %}
+        {% for message in flash(type) %}
+            flash('{{ type }}', '{{ message }}');
+        {% endfor %}
+    {% endfor %}
+</script>

@@ -1,0 +1,4 @@
+config/private.key
+vendor
+!var/databases/commands.yaml
+var

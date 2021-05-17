@@ -1,0 +1,22 @@
+<div id="menu">
+    <a onclick="closeMenu();" id="menu-close">
+        <i class="fa fa-window-close fa-lg"></i>
+    </a>
+    <a onclick="openMenu();" id="menu-open" class="d-none">
+        <i class="fa fa-hamburger fa-lg"></i>
+    </a>
+    <ul id="menu-configs" class="list-group">
+        <li class="list-group-item menu-item menu-title">Config</li>
+        <a class="list-group-item menu-item {% if request().uri == path('admin_config') %}active{% endif %}" href="{{ path('admin_config') }}">New config</a>
+        {% for config in configs %}
+            <a class="list-group-item menu-item {% if request().uri == path('admin_config', {'config': config}) %}active{% endif %}" href="{{ path('admin_config', {'config': config}) }}">{{ config }}</a>
+        {% endfor %}
+    </ul>
+    <ul id="menu-databases" class="list-group">
+        <li class="list-group-item menu-item menu-title">Databases</li>
+        <a class="list-group-item menu-item {% if request().uri == path('admin_database') %}active{% endif %}" href="{{ path('admin_database') }}">New database</a>
+        {% for database in databases %}
+            <a class="list-group-item menu-item {% if request().uri == path('admin_database', {'database': database}) %}active{% endif %}" href="{{ path('admin_database', {'database': database}) }}">{{ database }}</a>
+        {% endfor %}
+    </ul>
+</div>

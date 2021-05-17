@@ -1,0 +1,25 @@
+{
+    "name": "kzu/kzu",
+    "type": "project",
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "MarquandT",
+            "email": "thibault@marquand.pro"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kzu\\": "src/Kzu",
+            "App\\": "src/App"
+        }
+    },
+    "require-dev": {
+        "tracy/tracy": "^2.8"
+    },
+    "require": {
+        "kzu/web": "*",
+        "mailjet/mailjet-apiv3-php": "^1.5",
+        "coinbase/coinbase": "^2.8"
+    }
+}

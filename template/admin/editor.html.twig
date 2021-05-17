@@ -1,0 +1,36 @@
+{% extends 'layout/admin.html.twig' %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="/codemirror/lib/codemirror.css">
+    {{ parent() }}
+{% endblock %}
+
+{% block editor %}
+        <div class="col-12 p-0">
+            <div id="codemirror"></div>
+        </div>
+        <div id="editor_footer" class="row p-0">
+            <div class="col-12 col-md-9 p-0">
+                <div class="form-group">
+                    <input type="text" name="filename" id="input_filename" class="form-control" placeholder="Filename" {% if filename is defined and filename %}value="{{ filename }}"{% endif %} required>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 p-0 text-right">
+                <button class="btn btn-success" onclick="saveContent();">Save</button>    
+            </div>
+        </div>
+{% endblock %}
+
+{% block javascripts %}
+    <script src="/codemirror/lib/codemirror.js"></script>
+    <script src="/codemirror/mode/yaml/yaml.js"></script>
+    <script>
+        var myCodeMirror = CodeMirror(document.getElementById('codemirror'), {
+            value: "{{ editor|escape('js') }}",
+            mode:  "yaml",
+            lineNumbers: true,
+            lineWrapping: true,
+        });
+    </script>
+    {{ parent() }}
+{% endblock %}
