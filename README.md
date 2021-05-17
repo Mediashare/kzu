@@ -1,2 +1,1 @@
-# Marquand.pro
-Terminal web browser
+# Kzu
