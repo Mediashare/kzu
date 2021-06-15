@@ -8,11 +8,7 @@
         
         {# Stylesheets #}
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
-        <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
-        <link href="/fontawesome/css/all.css" rel="stylesheet">
-        <link href="/flash/flash.css" rel="stylesheet">
-        <link href="/css/app.css" rel="stylesheet">
+        <link href="{{ path('assets_css') }}" rel="stylesheet">
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
@@ -20,11 +16,7 @@
         {% block content %}{% endblock %}
 
         {# Javascripts #}
-        <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="/js/jquery.min.js"></script>
-        <script src="/flash/flash.js"></script>
-        <script src="/js/app.js"></script>
-        <script src="/js/authentification.js"></script>
+        <script src="{{ path('assets_js') }}"></script>
         {% block javascripts %}{% endblock %}
         
         {% include '_flash.html.twig' %}

@@ -20,6 +20,7 @@
     },
     "require": {
         "kzu/web": "*",
-        "mailjet/mailjet-apiv3-php": "^1.5"
+        "mailjet/mailjet-apiv3-php": "^1.5",
+        "matthiasmullie/minify": "^1.3"
     }
 }

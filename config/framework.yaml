@@ -6,13 +6,12 @@ storage:
         lifetime: +7days
 twig:
     debug: true
-    cache: false # /var/cache
+    cache: false
     template.directory: /template
 routes:
     index:
         path: /
         controller: 'App\Controller\Main::index'
-
     register:
         path: /register
         controller: 'Kzu\Controller\Authentification::register'
@@ -31,8 +30,25 @@ routes:
     admin_database:
         path: '/admin/database/{database}'
         controller: 'Kzu\Controller\Admin::database'
-
+    assets_css:
+        path: /assets/css
+        controller: 'Kzu\Controller\Assets::css'
+    assets_js:
+        path: /assets/js
+        controller: 'Kzu\Controller\Assets::js'
     error_404:
         path: /error/404
         controller: 'Kzu\Controller\Error::error_404'
-
+assets:
+    css:
+        - bootstrap/css/bootstrap.css
+        - bootstrap/css/bootstrap.css
+        - fontawesome/css/all.min.css
+        - flash/flash.css
+        - css/app.css
+    js:
+        - bootstrap/js/bootstrap.bundle.min.js
+        - js/jquery.min.js
+        - flash/flash.js
+        - js/app.js
+        - js/authentification.js
