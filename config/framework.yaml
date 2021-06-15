@@ -42,7 +42,6 @@ routes:
 assets:
     css:
         - bootstrap/css/bootstrap.css
-        - bootstrap/css/bootstrap.css
         - fontawesome/css/all.min.css
         - flash/flash.css
         - css/app.css
