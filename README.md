@@ -164,7 +164,7 @@ Http fournie les outils nécessaires aux requêtes entrantes et réponses de vos
 composer require kzu/http
 ```
 #### Resquest
-#### Respons
+#### Response
 ### Web 
 Le composant web implémente toutes les librairies utiles à la création d'applications web (Http, Storage, Database, Normalizer, Filesystem, Security).
 ```bash
