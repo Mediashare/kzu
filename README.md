@@ -9,12 +9,12 @@ En effet, comparé aux Class utilisés dans la plus part des projets, les **Trai
 <?php
 Trait Temperature {
 	public $temperature;
-    public function getChaleur() {
-    	if ($this->temperature < 5):
-        	return "Froid";
-        elseif ($this->temperature > 5):
-        	return "Chaud";
-        endif;
+    	public function getChaleur() {
+    		if ($this->temperature < 5):
+        		return "Froid";
+	        elseif ($this->temperature > 5):
+        		return "Chaud";
+        	endif;
 	}
 }
 
