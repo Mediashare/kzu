@@ -48,7 +48,7 @@ Un Trait ne pouvant être instancié, ceux-ci sont alors **optimisés grâce aux
 composer create-project kzu/kzu project_name
 ```
 ### Configuration
-Vous pouvez retrouver l'enssemble des configuration dans le dossier `./config`, celles-ci sont automatiquement chargées lors de l'éxécution du code et accessible via le trait `Kzu\Config`. Les fichiers de configurations sont interprétées en [yaml](https://yaml.org/), il faudra donc respecter la synthaxe et les tabulations.
+Vous pouvez retrouver l'enssemble des configuration dans le dossier `./config`, celles-ci sont automatiquement chargées lors de l'éxécution du code et accessible via le trait `Kzu\Config`. Les fichiers de configurations sont interprétées en [yaml](https://yaml.org/), il faudra donc respecter la synthaxe et les indentations.
 ```bash
 echo "test_config: true" > ./config/test.yaml
 ```
