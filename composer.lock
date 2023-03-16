@@ -339,16 +339,16 @@
         },
         {
             "name": "kzu/database",
-            "version": "0.0.5",
+            "version": "0.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Mediashare/database.git",
-                "reference": "a6c283e025f0d3b54f7cdd309812c44353c3c2ec"
+                "reference": "48899e400a1c314c47426f4afca399c6d08f4f5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Mediashare/database/zipball/a6c283e025f0d3b54f7cdd309812c44353c3c2ec",
-                "reference": "a6c283e025f0d3b54f7cdd309812c44353c3c2ec",
+                "url": "https://api.github.com/repos/Mediashare/database/zipball/48899e400a1c314c47426f4afca399c6d08f4f5b",
+                "reference": "48899e400a1c314c47426f4afca399c6d08f4f5b",
                 "shasum": ""
             },
             "require": {
@@ -373,9 +373,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Mediashare/database/issues",
-                "source": "https://github.com/Mediashare/database/tree/0.0.5"
+                "source": "https://github.com/Mediashare/database/tree/0.0.6"
             },
-            "time": "2023-03-16T10:05:19+00:00"
+            "time": "2023-03-16T11:06:41+00:00"
         },
         {
             "name": "kzu/filesystem",
