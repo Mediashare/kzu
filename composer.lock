@@ -339,16 +339,16 @@
         },
         {
             "name": "kzu/database",
-            "version": "0.0.7",
+            "version": "0.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Mediashare/database.git",
-                "reference": "bfd886f2c09cae8a23a33bbe7369dde932bad507"
+                "reference": "b8243912acddcfb814dc1eb60071f0692e8bf7e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Mediashare/database/zipball/bfd886f2c09cae8a23a33bbe7369dde932bad507",
-                "reference": "bfd886f2c09cae8a23a33bbe7369dde932bad507",
+                "url": "https://api.github.com/repos/Mediashare/database/zipball/b8243912acddcfb814dc1eb60071f0692e8bf7e4",
+                "reference": "b8243912acddcfb814dc1eb60071f0692e8bf7e4",
                 "shasum": ""
             },
             "require": {
@@ -373,22 +373,22 @@
             ],
             "support": {
                 "issues": "https://github.com/Mediashare/database/issues",
-                "source": "https://github.com/Mediashare/database/tree/0.0.7"
+                "source": "https://github.com/Mediashare/database/tree/0.0.8"
             },
-            "time": "2023-03-28T13:52:23+00:00"
+            "time": "2023-03-28T14:10:42+00:00"
         },
         {
             "name": "kzu/filesystem",
-            "version": "0.0.5",
+            "version": "0.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Mediashare/filesystem.git",
-                "reference": "91bc897678876e529837747e5e32610f8eacc851"
+                "reference": "b82000540aee6f108419db31d94d91c87e3c3c9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Mediashare/filesystem/zipball/91bc897678876e529837747e5e32610f8eacc851",
-                "reference": "91bc897678876e529837747e5e32610f8eacc851",
+                "url": "https://api.github.com/repos/Mediashare/filesystem/zipball/b82000540aee6f108419db31d94d91c87e3c3c9e",
+                "reference": "b82000540aee6f108419db31d94d91c87e3c3c9e",
                 "shasum": ""
             },
             "require": {
@@ -409,9 +409,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Mediashare/filesystem/issues",
-                "source": "https://github.com/Mediashare/filesystem/tree/0.0.5"
+                "source": "https://github.com/Mediashare/filesystem/tree/0.0.6"
             },
-            "time": "2023-03-16T09:57:20+00:00"
+            "time": "2023-03-28T14:05:10+00:00"
         },
         {
             "name": "kzu/http",
@@ -448,16 +448,16 @@
         },
         {
             "name": "kzu/normalizer",
-            "version": "0.0.2",
+            "version": "0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Mediashare/normalizer.git",
-                "reference": "8770fd37f31ae4323a7953a0acd07a0cb1542565"
+                "reference": "1f2f94ea0245ba630d49eac8ab1e15fd5c64f707"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Mediashare/normalizer/zipball/8770fd37f31ae4323a7953a0acd07a0cb1542565",
-                "reference": "8770fd37f31ae4323a7953a0acd07a0cb1542565",
+                "url": "https://api.github.com/repos/Mediashare/normalizer/zipball/1f2f94ea0245ba630d49eac8ab1e15fd5c64f707",
+                "reference": "1f2f94ea0245ba630d49eac8ab1e15fd5c64f707",
                 "shasum": ""
             },
             "require": {
@@ -478,22 +478,22 @@
             ],
             "support": {
                 "issues": "https://github.com/Mediashare/normalizer/issues",
-                "source": "https://github.com/Mediashare/normalizer/tree/0.0.2"
+                "source": "https://github.com/Mediashare/normalizer/tree/0.0.3"
             },
-            "time": "2021-05-17T19:22:31+00:00"
+            "time": "2023-03-28T14:07:22+00:00"
         },
         {
             "name": "kzu/security",
-            "version": "0.0.4",
+            "version": "0.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Mediashare/security.git",
-                "reference": "70ff07b2a9e469fbfcc5174a31a73eab514e47c0"
+                "reference": "9c4280f2b4b1514f1b29b545189c84e6ca7af449"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Mediashare/security/zipball/70ff07b2a9e469fbfcc5174a31a73eab514e47c0",
-                "reference": "70ff07b2a9e469fbfcc5174a31a73eab514e47c0",
+                "url": "https://api.github.com/repos/Mediashare/security/zipball/9c4280f2b4b1514f1b29b545189c84e6ca7af449",
+                "reference": "9c4280f2b4b1514f1b29b545189c84e6ca7af449",
                 "shasum": ""
             },
             "require": {
@@ -517,22 +517,22 @@
             ],
             "support": {
                 "issues": "https://github.com/Mediashare/security/issues",
-                "source": "https://github.com/Mediashare/security/tree/0.0.4"
+                "source": "https://github.com/Mediashare/security/tree/0.0.5"
             },
-            "time": "2021-05-17T19:26:05+00:00"
+            "time": "2023-03-28T14:03:14+00:00"
         },
         {
             "name": "kzu/storage",
-            "version": "0.0.4",
+            "version": "0.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Mediashare/storage.git",
-                "reference": "e2f8c569459e83c3689e1d47743898f82b9c5e13"
+                "reference": "7c1a3a30f5e03e72955643c77c1a3568390501af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Mediashare/storage/zipball/e2f8c569459e83c3689e1d47743898f82b9c5e13",
-                "reference": "e2f8c569459e83c3689e1d47743898f82b9c5e13",
+                "url": "https://api.github.com/repos/Mediashare/storage/zipball/7c1a3a30f5e03e72955643c77c1a3568390501af",
+                "reference": "7c1a3a30f5e03e72955643c77c1a3568390501af",
                 "shasum": ""
             },
             "require": {
@@ -553,22 +553,22 @@
             ],
             "support": {
                 "issues": "https://github.com/Mediashare/storage/issues",
-                "source": "https://github.com/Mediashare/storage/tree/0.0.4"
+                "source": "https://github.com/Mediashare/storage/tree/0.0.5"
             },
-            "time": "2021-05-17T19:27:41+00:00"
+            "time": "2023-03-28T14:12:23+00:00"
         },
         {
             "name": "kzu/web",
-            "version": "0.0.9",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Mediashare/web.git",
-                "reference": "da5a38f06e54e47369bc741b285998dada1f75e3"
+                "reference": "370422f4f0a2eab9523f3bf78a511b1236809bee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Mediashare/web/zipball/da5a38f06e54e47369bc741b285998dada1f75e3",
-                "reference": "da5a38f06e54e47369bc741b285998dada1f75e3",
+                "url": "https://api.github.com/repos/Mediashare/web/zipball/370422f4f0a2eab9523f3bf78a511b1236809bee",
+                "reference": "370422f4f0a2eab9523f3bf78a511b1236809bee",
                 "shasum": ""
             },
             "require": {
@@ -594,9 +594,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Mediashare/web/issues",
-                "source": "https://github.com/Mediashare/web/tree/0.0.9"
+                "source": "https://github.com/Mediashare/web/tree/0.1.0"
             },
-            "time": "2022-01-01T03:04:56+00:00"
+            "time": "2023-03-28T14:19:19+00:00"
         },
         {
             "name": "mailjet/mailjet-apiv3-php",
